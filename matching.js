@@ -9,7 +9,6 @@ var cardCount = 0
 
 var reset = function reset() {
 matchingCards = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
-// matchingCards = ['red', 'green'];
 flips = 0
 flippedCard = ''
 flippedCard1 = ''
