@@ -1,16 +1,33 @@
 body {
-    background-color: gray;
+    background-color: lightslategray;
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    background-color: dimgray;
+    border-bottom: 10px solid white;
+    padding-top: 5px;
 }
 
 .cards {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin: 15px;
     background-color: white;
     display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
+.cards:hover {
+    transform: rotateY(30deg);
+}
+
+
 #matchingGame {
-    width: 250px;
-    margin: 0 auto;
+    width: 525px;
+    margin: 50px auto;
 }
