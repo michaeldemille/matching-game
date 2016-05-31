@@ -1,3 +1,16 @@
 body {
     background-color: gray;
 }
+
+.cards {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    background-color: white;
+    display: inline-block;
+}
+
+#matchingGame {
+    width: 250px;
+    margin: 0 auto;
+}
