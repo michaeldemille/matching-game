@@ -13,8 +13,8 @@ body {
 }
 
 .cards {
-    height: 100px;
-    width: 100px;
+    min-height: 100px;
+    min-width: 100px;
     margin: 15px;
     background-color: white;
     display: inline-block;
@@ -30,4 +30,14 @@ body {
 #matchingGame {
     max-width: 525px;
     margin: 50px auto;
+}
+
+@media only screen and (max-width: 525px) {
+    .cards {
+    min-height: 75px;
+    min-width: 75px;
+    }
+    #matchingGame {
+        max-width: 315px;
+    }
 }
