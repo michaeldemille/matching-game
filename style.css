@@ -28,6 +28,6 @@ body {
 
 
 #matchingGame {
-    width: 525px;
+    max-width: 525px;
     margin: 50px auto;
 }
